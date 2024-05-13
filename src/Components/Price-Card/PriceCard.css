@@ -1,0 +1,91 @@
+.price-card-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.price-card-container {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1.2rem;
+  margin: 5rem;
+}
+
+.price-card {
+  justify-self: center;
+  align-self: center;
+  background-color: white;
+  border-radius: 0.6rem;
+  padding: 1.5rem 2rem 1rem 2rem;
+  box-shadow: rgba(14, 30, 37, 0.075) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.158) 0px 2px 16px 0px;
+  transition: all 0.3s;
+}
+.price-card:hover {
+  transform: scale(1.02);
+}
+
+.card-header {
+  text-align: center;
+}
+
+.card-header p {
+  margin-bottom: 1rem;
+}
+.card-header h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.offers {
+  padding-right: 3rem;
+}
+
+.offers p {
+  margin-bottom: 1rem;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #1c91df;
+  color: white;
+  border: none;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  border-radius: 50px;
+  width: 100%;
+  font-size: 0.8rem;
+}
+.btn:hover {
+  background-color: #177cbe;
+}
+
+@media only screen and (max-width: 768px) {
+  .price-card-container {
+    grid-auto-flow: row;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .price-card-section {
+    margin-top: 0;
+  }
+}
+
+span {
+  opacity: 0.6;
+}
+
+i {
+  margin-right: 0.6rem;
+}
+
+.close {
+  width: 0.7rem;
+  margin-right: 0.6rem;
+}

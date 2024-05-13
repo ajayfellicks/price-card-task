@@ -1,0 +1,13 @@
+.header {
+  background-color: white;
+  box-shadow: rgba(14, 30, 37, 0.075) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.158) 0px 2px 16px 0px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+  font-weight: 500;
+}
